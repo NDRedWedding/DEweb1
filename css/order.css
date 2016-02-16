@@ -1,30 +1,64 @@
 /*Default Styling from Home Page*/
 @import "main.css";
-	
-/*Coming Soon*/
-.comingSoon{
-	clear:both;
-	background-color: white;
-	border-radius: 4px;
-	border-color: black;
-	border-style: solid;
-	border-width: 2px;
-	color: black;
-	margin: 2% auto;
-	width: 60%;
+
+#order_form{
+    background-color: #f0f0f0;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin: 3% 25% 3% 25%;
 }
 
-.comingSoon h1{
-	text-align: center;
-	font-family: "Lato", serif;
-	font-size: 48px;
-	font-weight: bold;
-	padding-top: 20%;
+#order_form h2{
+    font-family: Verdana, serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
-.comingSoon p{
-	text-align: center;
-	font-family: "Open Sans", serif;
-	font-size: 24px;
-	padding: 10%;
+#order_form h3{
+    font-family: Verdana, serif;
+    font-size: 18px;
+    margin-bottom: 2%;
+}
+
+#button_container{
+        text-align: center;
+}
+
+#personal, #productSelect, #paymentSelect{
+    border-bottom-style:ridge;
+    border-color: darkgray;
+    border-width: 3px;
+    margin: 4%;
+}
+
+#order_form label{
+       
+}
+
+#quantity1, #quantity2, #quantity3{
+    width: 50px;
+}
+
+#order_form #submit_button{
+    border : solid 1px #638a00;
+	border-radius : 3px;
+	moz-border-radius : 3px;
+	-webkit-box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+	-moz-box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+	box-shadow : 0px 2px 2px rgba(0,0,0,0.4);
+	font-size : 20px;
+	color : #ffffff;
+	padding : 1px 17px;
+	background : #96c300;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#96c300), color-stop(100%,#648c00));
+	background : -moz-linear-gradient(top, #96c300 0%, #648c00 100%);
+	background : -webkit-linear-gradient(top, #96c300 0%, #648c00 100%);
+	background : -o-linear-gradient(top, #96c300 0%, #648c00 100%);
+	background : -ms-linear-gradient(top, #96c300 0%, #648c00 100%);
+	background : linear-gradient(top, #96c300 0%, #648c00 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#96c300', endColorstr='#648c00',GradientType=0 );
+    text-align: center;
 }

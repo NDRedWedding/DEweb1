@@ -1,0 +1,48 @@
+/*Default Styling from Home Page*/
+@import "main.css";
+
+/* Styling for Content of Home Page */
+
+/*Introduction*/
+
+#promo{
+	margin: 2% 10% 0 10%;
+	width: 80%;
+}
+
+.triView {
+	width: 80%;
+	margin: 0 10% 20% 10%;
+}
+
+.triView a{
+    color: black;
+}
+
+.triView a:hover .view{
+    border-color: darkgreen;
+    border-width: 2px;
+    color: darkgreen;
+}
+
+.view {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	float: left;
+	display: inline;
+	background-color: white;
+	height: 30vh;
+	width: 33%;
+}
+
+.view h3{
+	font-family: Moonshiner, serif;
+	font-size: 28px;
+	text-align: center;
+}
+
+.view img{
+    margin-top: 5%;
+    margin-left: 45%;
+}
